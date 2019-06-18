@@ -77,7 +77,7 @@ public class DriveTrain extends Subsystem {
         addChild("tankDrive",tankDrive);
         tankDrive.setSafetyEnabled(true);
         tankDrive.setExpiration(0.1);
-        tankDrive.setMaxOutput(1);
+        tankDrive.setMaxOutput(1.0);
 
         
 
@@ -120,8 +120,6 @@ public class DriveTrain extends Subsystem {
         limitedJoystick += change;
         tankDrive.arcadeDrive(limitedJoystick, twist);
     }
-
-    
     // private void motorConfig() {
 	// 	// Set followers
 	// 	leftfollower.set(ControlMode.Follower, RobotMap.talonIDLeftMaster);
