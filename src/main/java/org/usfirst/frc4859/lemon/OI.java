@@ -11,15 +11,11 @@
 
 package org.usfirst.frc4859.lemon;
 
-import org.usfirst.frc4859.lemon.commands.DriveWithJoyStick;
-import org.usfirst.frc4859.lemon.commands.HighSpeed;
-import org.usfirst.frc4859.lemon.commands.LaunchBall;
-import org.usfirst.frc4859.lemon.commands.LowSpeed;
-import org.usfirst.frc4859.lemon.commands.MedSpeed;
-
-import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.buttons.JoystickButton;
+import org.usfirst.frc4859.lemon.commands.*;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.buttons.*;
+import org.usfirst.frc4859.lemon.subsystems.*;
 
 
 /**
